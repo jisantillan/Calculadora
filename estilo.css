@@ -1,0 +1,38 @@
+#uno, #dos, #tres, #cuatro, #cinco, #seis, #siete, #ocho, #nueve, #cero ,#pi,#pd,#res,#mas,#menos,#por,#dividido,#ac,#igual,#borrar,#coma{
+  height: 50px; 
+  width: 100%;
+  font-size: 20px;
+   }
+  
+
+#igual {
+    background-color: rgb(118, 189, 211);
+    color: white;
+    border-top: 1px solid #999;
+    border-right: 1px solid#999;
+    border-left: 1px solid#999;
+    border-bottom: 1px solid#999;
+
+    width: 100%;
+}
+
+#res{
+  padding-left: 10px;
+}
+
+td {
+    border: 1px solid black;
+    width: 50px;
+    overflow: hidden;
+}
+
+td:empty{
+    visibility: hidden;
+}
+
+.calculadora{
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+}
+

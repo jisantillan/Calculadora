@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <title>Calculadora</title>
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <form method="POST">
+        <table width="640" height="100%" border="0" class="calculadora" >
+            <tr>
+                <td>
+                   <table width="100%" border="0" align="center">
+                       <tr align="left">                       
+                            <td colspan="4" " input type="text" id="res"></td>
+                       </tr>
+                        <tr align="left">
+                            <td ><input type="button" value="+" id="mas"  class="btn btn-light"> </td>
+                            <td ><input type="button" value="-" id="menos"class="btn btn-light"> </td>
+                            <td ><input type="button" value="*" id="por" class="btn btn-light"> </td>
+                            <td><input type="reset" value="AC" id="ac" class="btn btn-light"> </td>
+                        </tr>
+                       
+                        <tr align="left">
+                            <td > <input type="button" value="1" id="uno" class="btn btn-light"> </td>
+                            <td > <input type="button" value="2" id="dos" class="btn btn-light"> </td>
+                            <td ><input type="button" value="3" id="tres" class="btn btn-light" >  </td>  
+                            <td><input type="button" value =&larr; id="borrar" class="btn btn-light"></td>                          
+                        </tr>
+                        <tr align="left">                    
+                            <td > <input type="button" value="4" id="cuatro" class="btn btn-light"> </td>
+                            <td > <input type="button" value="5" id="cinco" class="btn btn-light"> </td>
+                            <td ><input type="button" value="6" id="seis" class="btn btn-light"> </td>
+                            <td><input type="button" value="/" id="dividido" class="btn btn-light"> </td>                    
+                        </tr>
+                        <tr align="left">
+                    
+                        <td> <input type="button" value="7" id="siete" class="btn btn-light"> </td>
+                            <td> <input type="button" value="8" id="ocho" class="btn btn-light"> </td>
+                            <td><input type="button" value="9" id="nueve" class="btn btn-light"> </td>
+                            <td><input type="button" value="." id="coma" class="btn btn-light"> </td>
+                        </tr>
+                        <tr align="center">
+                            <td> <input type="button" value="(" id="pi" class="btn btn-light"> </td>
+                            <td > <input type="button" value="0" id="cero" class="btn btn-light"> </td>
+                            <td> <input type="button" value=")" id="pd" class="btn btn-light"> </td>
+                            <td><input type="button" value="=" id="igual" > </td>                    
+                        </tr>
+                    </table>
+               </tr> 
+            </td>
+        </table>
+    </form>
+    <script src="calculadora.js"></script>
+</body>
